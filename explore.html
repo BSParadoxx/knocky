@@ -1,0 +1,82 @@
+<!-- explore.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Together Page</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #000;
+        }
+
+        .video-bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+
+        .content {
+            text-align: center;
+            color: white;
+            z-index: 1;
+        }
+
+        .content h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            font-family: 'Arial', sans-serif;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+        }
+
+        .content p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            margin-bottom: 30px;
+            font-family: 'Arial', sans-serif;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 1.1em;
+            color: #ccc;
+            text-decoration: none;
+            background-color: rgba(0, 0, 0, 0.3);
+            border-radius: 25px;
+            transition: color 0.3s ease, background-color 0.3s ease;
+        }
+
+        .back-link:hover {
+            color: #fff;
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <video class="video-bg" autoplay loop muted>
+        <source src="Video1.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <div class="content">
+        <h1>Lovely and Good Enough</h1>
+        <p>Smile and Laugh just Like I do. Will work on everything together.</p>
+        <p>tALENT cHORNICAL Overed Powered!</p>
+        <a href="IAlwaysLaugh.html" class="back-link">Back to 28 Kilo</a>
+        <a href="diamond.html" class="back-link" style="margin-left: 20px;">Found the Diamond</a>
+    </div>
+</body>
+</html>
