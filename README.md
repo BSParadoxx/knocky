@@ -1,2 +1,0 @@
-# knocky
-Nothing to can
